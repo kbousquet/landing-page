@@ -1,0 +1,42 @@
+#box{
+    padding: 0px 200px 0px 200px;
+}
+
+.header, .hero-container{
+    background-color:#1F2937;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+
+.header-links{
+    display:flex;
+    flex-basis:275px;
+    justify-content:space-between;
+}
+
+.hero-container{
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+    height:300px;
+}
+
+.hero-img{
+    background-color: gray;
+    height: 200px;
+    width:400px
+}
+
+a{
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.quote-container{
+    background-color:#E5E7EB;
+}
